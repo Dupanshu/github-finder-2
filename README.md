@@ -14,10 +14,10 @@ Click [here](https://github-finder-2-dupanshu.netlify.app/) to go to the
 website hosted on Netlify.
 ### It looks like this
 - Search Page
-![Search Page](../src/media/Screenshot%202024-05-22%20020144.png)
+![Search Page](./media-readme/Screenshot%202024-05-22%20020144.png)
 - User Page
-![User Page](../src/media/Screenshot%202024-05-22%20020106.png)
+![User Page](./media-readme/Screenshot%202024-05-22%20020106.png)
 ### GitHub Token Error - 401 (Unauthorized)
-![Error](../src/media/Screenshot%202024-05-22%20020049.png)
+![Error](./media-readme/Screenshot%202024-05-22%20020049.png)
 The GitHub token is not working after deploying to the repository even after
 authentication process.
