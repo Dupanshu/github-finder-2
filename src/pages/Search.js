@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
 function Search() {
-  const token = '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';
+  const token = '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';
   const [userName, setUserName] = useState('');
   const [message, setMessage] = useState('Welcome to GitHub Finder');
   const navigate = useNavigate();
@@ -20,7 +20,7 @@ function Search() {
           navigate(`/user/${userName}`);
         }
       } catch (error) {
-        console.log('Invalid Entry');
+        setMessage('Invalid Entry');
       }
     }
     fetchUser();

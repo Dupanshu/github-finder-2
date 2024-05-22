@@ -12,7 +12,7 @@ function User() {
   const [user, setUser] = useState(null);
   const [text, setText] = useState('Loading...');
   const [repos, setRepos] = useState([]);
-  const token = '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';
+  const token = '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';
   
 
   useEffect(() => {
