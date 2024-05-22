@@ -1,6 +1,7 @@
 {
   "name": "github-finder_as-4",
   "version": "0.1.0",
+  "homepage": "https://dupanshu.github.io/github-finder-2/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
