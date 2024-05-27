@@ -7,8 +7,8 @@ function App() {
   return (
     <main>
       <Routes>
-        <Route exact path='/github-finder-2/' element={<Search />} />
-        <Route exact path='/github-finder-2/user/:userName' element={<User />} />
+        <Route exact path='/' element={<Search />} />
+        <Route exact path='/user/:userName' element={<User />} />
       </Routes>
     </main>
   );
