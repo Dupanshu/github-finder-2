@@ -6,16 +6,16 @@ import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
 function Search() {
-  //const token = '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';
+  const token = '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';
   const [userName, setUserName] = useState('');
   const [message, setMessage] = useState('Welcome to GitHub Finder');
   const navigate = useNavigate();
 
   const handleSubmit = (event) => {
-    //const options = {headers: { Authorization: `Bearer ${token}`}};
+    const options = {headers: { Authorization: `Bearer ${token}`}};
     const fetchUser = async () => {
       try {
-        const response = await axios.get(`https://api.github.com/users/${userName}`/* , options */);
+        const response = await axios.get(`https://api.github.com/users/${userName}`, options);
         if (response) {
           navigate(`/user/${userName}`);
         }
