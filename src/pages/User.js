@@ -12,16 +12,16 @@ function User() {
   const [user, setUser] = useState(null);
   const [text, setText] = useState('Loading...');
   const [repos, setRepos] = useState([]);
-  const token = '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';
+  //const token = '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';
   
 
   useEffect(() => {
-    const options = {headers: { Authorization: `Bearer ${token}`}};
+    //const options = {headers: { Authorization: `Bearer ${token}`}};
     const fetchUser = async () => {
       try {
         const [responseUser, responseRepo] = await Promise.all([
-          axios.get(`https://api.github.com/users/${userName}`, options),
-          axios.get(`https://api.github.com/users/${userName}/repos`, options)
+          axios.get(`https://api.github.com/users/${userName}`/* , options */),
+          axios.get(`https://api.github.com/users/${userName}/repos`/* , options */)
         ]);
         setUser(responseUser.data);
         setRepos(responseRepo.data);
