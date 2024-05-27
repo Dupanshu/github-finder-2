@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
 function Search() {
-  const token = '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';
+  const token = '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';
   const [userName, setUserName] = useState('');
   const [message, setMessage] = useState('Welcome to GitHub Finder');
   const navigate = useNavigate();

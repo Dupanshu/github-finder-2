@@ -12,7 +12,7 @@ function User() {
   const [user, setUser] = useState(null);
   const [text, setText] = useState('Loading...');
   const [repos, setRepos] = useState([]);
-  const token = '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';
+  const token = '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';
   
 
   useEffect(() => {
