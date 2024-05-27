@@ -17,7 +17,7 @@ function Search() {
       try {
         const response = await axios.get(`https://api.github.com/users/${userName}`/* , options */);
         if (response) {
-          navigate(`/user/${userName}`);
+          navigate(`/github-finder-2/user/${userName}`);
         }
       } catch (error) {
         setMessage('Invalid Entry');
