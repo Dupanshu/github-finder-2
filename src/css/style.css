@@ -30,15 +30,14 @@ main {
 .github-icon {
   font-size: 70px;
   margin-bottom: 17px;
-  background-color: #0D1117;
-  color: #fff;
+  filter: invert(1);
 }
 
 .search-bar form {
   background-image: linear-gradient( 135deg, #4568dc, #b06ab3  );
   height: 42px;
   width: 298px;
-  padding: 0.5px 1px 1px 1px;
+  padding: 1px;
   place-items: center;
   border-radius: 20px;
   margin-bottom: 10px;
